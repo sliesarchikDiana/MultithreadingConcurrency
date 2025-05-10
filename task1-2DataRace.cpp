@@ -10,12 +10,11 @@ int main() {
 
     for (int i{0}; i < 3; ++i) {
         threads.emplace_back([&a, &counter, &mtx]() {
-            a *= a;
-            {
                 std::lock_guard<std::mutex> lock(mtx);
+                a *= a;
+                std::cout << "Thread " << std::this_thread::get_id()<< " squared result is: " << a << std::endl;
                 counter++;
                 std::cout << "Thread " << std::this_thread::get_id()<< " incremented counter to: " << counter << std::endl;
-            }
         });
     }
 
