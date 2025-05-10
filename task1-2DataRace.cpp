@@ -1,21 +1,30 @@
 #include <iostream>
 #include <thread>
 #include <vector>
-int main(){
-    int a{3};
+#include <mutex>
+
+int main() {
+    int a{3}, counter{0};
     std::vector<std::thread> threads;
     std::mutex mtx;
+
     for (int i{0}; i < 3; ++i) {
-        threads.emplace_back([&a, &mtx](){std::lock_guard<std::mutex> lock(mtx) ;a*=a;});
-        std::cout<<"Result of exponent from thread"<<threads[i].get_id()<<": "<<a<<std::endl;
+        threads.emplace_back([&a, &counter, &mtx]() {
+            a *= a;
+            {
+                std::lock_guard<std::mutex> lock(mtx);
+                counter++;
+                std::cout << "Thread " << std::this_thread::get_id()<< " incremented counter to: " << counter << std::endl;
+            }
+        });
     }
+
     for (auto &thr : threads) {
         thr.join();
     }
-    std::cout<<"The final result is: "<<a;
 
-
-
+    std::cout << "The final squared result is: " << a << std::endl;
+    std::cout << "The final counter value is: " << counter << std::endl;
 
     return 0;
 }
