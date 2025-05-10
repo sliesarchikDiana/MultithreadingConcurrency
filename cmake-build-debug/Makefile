@@ -176,6 +176,30 @@ task1-2DataRace.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.s
 .PHONY : task1-2DataRace.cpp.s
 
+task4.obj: task4.cpp.obj
+.PHONY : task4.obj
+
+# target to build an object file
+task4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj
+.PHONY : task4.cpp.obj
+
+task4.i: task4.cpp.i
+.PHONY : task4.i
+
+# target to preprocess a source file
+task4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.i
+.PHONY : task4.cpp.i
+
+task4.s: task4.cpp.s
+.PHONY : task4.s
+
+# target to generate assembly for a file
+task4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.s
+.PHONY : task4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... task1-2DataRace.obj
 	@echo ... task1-2DataRace.i
 	@echo ... task1-2DataRace.s
+	@echo ... task4.obj
+	@echo ... task4.i
+	@echo ... task4.s
 .PHONY : help
 
 

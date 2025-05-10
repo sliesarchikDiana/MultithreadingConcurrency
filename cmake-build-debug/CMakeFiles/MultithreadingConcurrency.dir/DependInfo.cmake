@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/VivoBook/Desktop/MultithreadingConcurrency/main.cpp" "CMakeFiles/MultithreadingConcurrency.dir/main.cpp.obj" "gcc" "CMakeFiles/MultithreadingConcurrency.dir/main.cpp.obj.d"
   "C:/Users/VivoBook/Desktop/MultithreadingConcurrency/task1-2DataRace.cpp" "CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj" "gcc" "CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj.d"
+  "C:/Users/VivoBook/Desktop/MultithreadingConcurrency/task4.cpp" "CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj" "gcc" "CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
