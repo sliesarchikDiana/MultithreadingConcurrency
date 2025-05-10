@@ -1,0 +1,3 @@
+C:/Users/VivoBook/Desktop/MultithreadingConcurrency/cmake-build-debug/CMakeFiles/MultithreadingConcurrency.dir
+C:/Users/VivoBook/Desktop/MultithreadingConcurrency/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/VivoBook/Desktop/MultithreadingConcurrency/cmake-build-debug/CMakeFiles/rebuild_cache.dir
