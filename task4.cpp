@@ -15,8 +15,6 @@ void thread1_function() {
     std::cout << "Thread 1: Trying to lock mutex2..." << std::endl;
     mutex2.lock();
     std::cout << "Thread 1: Locked mutex2." << std::endl;
-
-    // Critical section
     std::cout << "Thread 1: Executing critical section..." << std::endl;
 
     mutex2.unlock();
@@ -32,12 +30,13 @@ void thread2_function() {
     std::cout << "Thread 2: Trying to lock mutex1..." << std::endl;
     mutex1.lock();
     std::cout << "Thread 2: Locked mutex1." << std::endl;
-
     std::cout << "Thread 2: Executing critical section..." << std::endl;
 
     mutex1.unlock();
     mutex2.unlock();
 }
+
+
 
 
 void fixed_thread1_function() {
@@ -49,7 +48,6 @@ void fixed_thread2_function() {
     std::scoped_lock lock(mutex1, mutex2);
     std::cout << "Thread 2: Executing critical section..." << std::endl;
 }
-
 
 
 
