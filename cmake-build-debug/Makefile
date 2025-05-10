@@ -200,6 +200,30 @@ task4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.s
 .PHONY : task4.cpp.s
 
+task5.obj: task5.cpp.obj
+.PHONY : task5.obj
+
+# target to build an object file
+task5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.obj
+.PHONY : task5.cpp.obj
+
+task5.i: task5.cpp.i
+.PHONY : task5.i
+
+# target to preprocess a source file
+task5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.i
+.PHONY : task5.cpp.i
+
+task5.s: task5.cpp.s
+.PHONY : task5.s
+
+# target to generate assembly for a file
+task5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MultithreadingConcurrency.dir\build.make CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.s
+.PHONY : task5.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... task4.obj
 	@echo ... task4.i
 	@echo ... task4.s
+	@echo ... task5.obj
+	@echo ... task5.i
+	@echo ... task5.s
 .PHONY : help
 
 

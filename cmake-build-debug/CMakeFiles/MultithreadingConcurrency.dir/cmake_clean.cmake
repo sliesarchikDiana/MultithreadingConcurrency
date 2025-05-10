@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj.d"
   "CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj"
   "CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj.d"
+  "CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.obj"
+  "CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.obj.d"
   "MultithreadingConcurrency.exe"
   "MultithreadingConcurrency.exe.manifest"
   "MultithreadingConcurrency.pdb"
