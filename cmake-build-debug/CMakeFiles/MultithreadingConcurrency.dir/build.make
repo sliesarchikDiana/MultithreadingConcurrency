@@ -82,19 +82,19 @@ CMakeFiles/MultithreadingConcurrency.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MultithreadingConcurrency.dir/main.cpp.s"
 	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivoBook\Desktop\MultithreadingConcurrency\main.cpp -o CMakeFiles\MultithreadingConcurrency.dir\main.cpp.s
 
-CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj: CMakeFiles/MultithreadingConcurrency.dir/flags.make
-CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj: C:/Users/VivoBook/Desktop/MultithreadingConcurrency/task1-2DataRace.cpp
-CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj: CMakeFiles/MultithreadingConcurrency.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\MultithreadingConcurrency\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj"
-	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj -MF CMakeFiles\MultithreadingConcurrency.dir\task1-2DataRace.cpp.obj.d -o CMakeFiles\MultithreadingConcurrency.dir\task1-2DataRace.cpp.obj -c C:\Users\VivoBook\Desktop\MultithreadingConcurrency\task1-2DataRace.cpp
+CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj: CMakeFiles/MultithreadingConcurrency.dir/flags.make
+CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj: C:/Users/VivoBook/Desktop/MultithreadingConcurrency/task1-3DataRace.cpp
+CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj: CMakeFiles/MultithreadingConcurrency.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\VivoBook\Desktop\MultithreadingConcurrency\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj"
+	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj -MF CMakeFiles\MultithreadingConcurrency.dir\task1-3DataRace.cpp.obj.d -o CMakeFiles\MultithreadingConcurrency.dir\task1-3DataRace.cpp.obj -c C:\Users\VivoBook\Desktop\MultithreadingConcurrency\task1-3DataRace.cpp
 
-CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.i"
-	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivoBook\Desktop\MultithreadingConcurrency\task1-2DataRace.cpp > CMakeFiles\MultithreadingConcurrency.dir\task1-2DataRace.cpp.i
+CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.i"
+	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\VivoBook\Desktop\MultithreadingConcurrency\task1-3DataRace.cpp > CMakeFiles\MultithreadingConcurrency.dir\task1-3DataRace.cpp.i
 
-CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.s"
-	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivoBook\Desktop\MultithreadingConcurrency\task1-2DataRace.cpp -o CMakeFiles\MultithreadingConcurrency.dir\task1-2DataRace.cpp.s
+CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.s"
+	"D:\ClionApplication\CLion 2024.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\VivoBook\Desktop\MultithreadingConcurrency\task1-3DataRace.cpp -o CMakeFiles\MultithreadingConcurrency.dir\task1-3DataRace.cpp.s
 
 CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj: CMakeFiles/MultithreadingConcurrency.dir/flags.make
 CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj: C:/Users/VivoBook/Desktop/MultithreadingConcurrency/task4.cpp
@@ -127,7 +127,7 @@ CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.s: cmake_force
 # Object files for target MultithreadingConcurrency
 MultithreadingConcurrency_OBJECTS = \
 "CMakeFiles/MultithreadingConcurrency.dir/main.cpp.obj" \
-"CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj" \
+"CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj" \
 "CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj" \
 "CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.obj"
 
@@ -135,7 +135,7 @@ MultithreadingConcurrency_OBJECTS = \
 MultithreadingConcurrency_EXTERNAL_OBJECTS =
 
 MultithreadingConcurrency.exe: CMakeFiles/MultithreadingConcurrency.dir/main.cpp.obj
-MultithreadingConcurrency.exe: CMakeFiles/MultithreadingConcurrency.dir/task1-2DataRace.cpp.obj
+MultithreadingConcurrency.exe: CMakeFiles/MultithreadingConcurrency.dir/task1-3DataRace.cpp.obj
 MultithreadingConcurrency.exe: CMakeFiles/MultithreadingConcurrency.dir/task4.cpp.obj
 MultithreadingConcurrency.exe: CMakeFiles/MultithreadingConcurrency.dir/task5.cpp.obj
 MultithreadingConcurrency.exe: CMakeFiles/MultithreadingConcurrency.dir/build.make

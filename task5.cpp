@@ -10,7 +10,7 @@ void producer(SafeQueue& queue) {
 void consumer(SafeQueue& queue) {
     for (int i = 1; i <= 10; ++i) {
         queue.dequeue();
-        std::this_thread::sleep_for(std::chrono::milliseconds(300));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
     }
 }
 

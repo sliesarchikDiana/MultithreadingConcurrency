@@ -117,7 +117,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "task1-2DataRace.cpp",
+			"path" : "task1-3DataRace.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
